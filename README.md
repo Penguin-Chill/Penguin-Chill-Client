@@ -1,2 +1,2 @@
-# CPPSCreator Client
+# Penguin Chill Client
 Very epic but also spain (without the s)
