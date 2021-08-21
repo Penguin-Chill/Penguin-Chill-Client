@@ -1,0 +1,72 @@
+{
+   "name": "cppscreatorclient",
+   "version": "1.0.1",
+   "description": "CPPSCreator Client",
+   "productName": "CPPSCreator",
+   "main": "main.js",
+   "scripts": {
+      "start": "electron ."
+   },
+   "repository": "https://github.com/random-sb/cppscreator-client",
+   "keywords": [
+      "cppscreator",
+      "cpps",
+      "club penguin",
+      "club penguin private server"
+   ],
+   "build": {
+      "publish": [
+         {
+            "provider": "github",
+            "owner": "random-sb",
+            "repo": "cppscreator-client"
+         }
+      ],
+      "appId": "net.cppscreator",
+      "mac": {
+         "asar": false,
+         "category": "public.app-category.games"
+      },
+      "linux": {
+         "asar": false,
+         "target": [
+            {
+               "target": "deb",
+               "arch": [
+                  "x64",
+                  "ia32"
+               ]
+            },
+            {
+               "target": "AppImage",
+               "arch": [
+                  "x64",
+                  "ia32"
+               ]
+            }
+         ]
+      },
+      "win": {
+         "asar": false,
+         "target": [
+            {
+               "target": "nsis",
+               "arch": [
+                  "x64",
+                  "ia32"
+               ]
+            }
+         ]
+      }
+   },
+   "author": "CPPSCreator <rocket@rockets.chat> (https://cppscreator.xyz)",
+   "license": "CC0-1.0",
+   "devDependencies": {
+      "electron": "^8.5.5",
+      "electron-builder": "^22.9.1"
+   },
+   "dependencies": {
+      "electron-updater": "^4.3.2",
+      "discord-rpc": "^3.1.4"
+   }
+}
