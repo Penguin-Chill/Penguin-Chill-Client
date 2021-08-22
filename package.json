@@ -1,13 +1,13 @@
 {
-   "name": "cppscreatorclient",
+   "name": "PenguinChillClient",
    "version": "1.0.1",
-   "description": "CPPSCreator Client",
-   "productName": "CPPSCreator",
+   "description": "Penguin Chill Client",
+   "productName": "PenguinChillClient",
    "main": "main.js",
    "scripts": {
       "start": "electron ."
    },
-   "repository": "https://github.com/random-sb/cppscreator-client",
+   "repository": "https://github.com/Penguin-Chill/Penguin-Chill-Client",
    "keywords": [
       "cppscreator",
       "cpps",
@@ -18,11 +18,11 @@
       "publish": [
          {
             "provider": "github",
-            "owner": "random-sb",
-            "repo": "cppscreator-client"
+            "owner": "Penguin-Chill",
+            "repo": "Penguin-Chill-Client"
          }
       ],
-      "appId": "net.cppscreator",
+      "appId": "net.PenguinChill",
       "mac": {
          "asar": false,
          "category": "public.app-category.games"
@@ -59,7 +59,7 @@
          ]
       }
    },
-   "author": "CPPSCreator <rocket@rockets.chat> (https://cppscreator.xyz)",
+   "author": "Penguin Chill <noobfletcher1@gmail.com> (https://penguinchill.cf/)",
    "license": "CC0-1.0",
    "devDependencies": {
       "electron": "^8.5.5",
